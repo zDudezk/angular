@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, Input, input, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 
@@ -9,4 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './column.scss'
 })
 export class Column {
+@Input() image: string = "";
+@Input() content: string = "";
+@Input() title: string = "";
+
+
+
+
 }
