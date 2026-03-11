@@ -2,7 +2,7 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Footer } from './footer/footer';
 import { Header } from './header/header';
-import { Column } from './komponenty/kolumny';
+import { Column } from './komponenty/column';
 
 @Component({
   selector: 'app-root',
