@@ -12,8 +12,4 @@ export class Column {
 @Input() image: string = "";
 @Input() content: string = "";
 @Input() title: string = "";
-
-
-
-
 }
